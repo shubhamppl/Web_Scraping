@@ -1,0 +1,7 @@
+""" !pip install bardapi """
+
+from bardapi import Bard
+import os
+os.environ["_BARD_API_KEY"]="YAi6Lt80sJSWyS6jptfIvSh2FkZJngMibeUHrOrhSiLiGMhOO6t_09HNChlpGcxzDRmUGA."
+message=input("enter your prop:: ")
+print(Bard().get_answer(str(message)))['content']
